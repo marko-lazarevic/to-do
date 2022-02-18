@@ -1,0 +1,15 @@
+.to-do {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.to-do-title {
+  text-align: center;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}

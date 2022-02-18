@@ -1,0 +1,34 @@
+.list-item {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  background: rgb(33, 110, 253);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-data {
+  width: 50%;
+}
+
+.list-item-status {
+  width: 20px;
+  height: 20px;
+}
+
+.list-item-delete {
+  opacity: 0;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+}
+
+.list-item-delete:hover {
+  background-color: darkred;
+}
+
+.list-item:hover .list-item-delete {
+  opacity: 1;
+}
